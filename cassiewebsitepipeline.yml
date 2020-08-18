@@ -7,4 +7,4 @@ Resources:
         BlockPublicAcls: False
         BlockPublicPolicy: False
         IgnorePublicAcls: False
-        RestrictPublicBuckets: True
+        RestrictPublicBuckets: Test
