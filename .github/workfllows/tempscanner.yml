@@ -12,7 +12,7 @@ jobs:
           - name: Cloud One Conformity Pipeline Scanner
             uses: raphabot/conformity-template-scanner-pipeline@version
             env:
-              cc_apikey: ${{4oAoxhUg1wSousTxuD9jbzsssW373XChM3Ssu84tr4hSDfQMy67cSs4knsbuwbpZ}}
+              cc_apikey: ${{ secrets.cc_apikey }}
               maxExtreme: 0
               maxVeryHigh: 0
               maxHigh: 3
